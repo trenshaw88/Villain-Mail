@@ -4,9 +4,19 @@ Villain Mail is a messaging application for villains.
 
 ## Instructions and MVP
 
-This project is different than the others you've done. You are given a work in progress and are asked to fix some bugs and add some new features.
+This project is different than the others you've done. You are given a work in progress and must fix some bugs and add some new features.
 
-For the MVP, clone the repo from the link posted in Slack. Set the project up locally. Complete at least one bug fix and one new feature. Push your updated code to a repo in your personal github account and set up an application for it in Heroku. Turn in links to your Heroku project and your repo.
+For the MVP:
+
+1. Clone the repo from the link posted in Slack. 
+2. Set the project up locally. 
+3. Complete at least one bug fix and one new feature from the lists below.
+4. Push your updated code to a repo in your personal github account and set up an application for it in Heroku. 
+5. Turn in links to your Heroku project and your repo.
+
+If you complete the MVP before the end of the day, continue working on bugs and features to build out Villain Mail. After you complete one feature from this list, you are free to add any features you think would enhance the product. 
+
+Have fun and enjoy your day of coding!
 
 ## Things that are done
 
@@ -20,13 +30,13 @@ For the MVP, clone the repo from the link posted in Slack. Set the project up lo
 
 1. The home screen shows everyone's messages, not just the ones sent to the logged-in user. OOOPS. This is probably a great big security problem.
 
-2. Unread messages should show up as bold (or with some other kind of highlighting) in on the home screen.
+2. Unread messages should show up as bold (or with some other kind of highlighting) on the home screen.
 
 3. The date displayed on the home screen is very hard to read. Change it to something more user-friendly.
 
 ## New Features
 
-1. There's no way to enter a new message. Create a form for that. The only valid recipients for a message are other VMail users (no external email addresses).
+1. There's no way to enter a new message. Create a form for that. The only valid recipients for a message should be other VMail users (no external email addresses).
 
 2. You should be able to click on a message in the home screen to view it, reply to it, and star it.
 
