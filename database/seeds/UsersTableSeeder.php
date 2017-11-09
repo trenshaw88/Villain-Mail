@@ -52,6 +52,13 @@ class UsersTableSeeder extends Seeder
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
         'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
       ]);
+      DB::table('users')->insert([
+        'name' => 'Darth Maul',
+        'email' => 'dmaul@sith.org',
+        'password' => bcrypt('darkside'),
+        'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+      ]);
 
     }
 }
