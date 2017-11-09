@@ -24,6 +24,7 @@ class CreateMessagesTable extends Migration
             $table->boolean('is_read')->default(false);
             $table->boolean('is_starred')->default(false);
             $table->timestamps();
+            $table->string('message_date');
         });
     }
 

@@ -23,7 +23,7 @@
                     <table class="table">
                     <tr>
                         <th></th>
-                        <th>From</th>
+                        <th>To</th>
                         <th>Subject</th>
                         <th>Date</th>
                     </tr>
@@ -36,9 +36,9 @@
                         </td>
                         <td>
                             @if ($message->is_read)
-                                <a href="/message/{{ $message->id }}"><strong>{{ $message->sender->name }}</strong></a>
+                                <a href="/message/{{ $message->id }}"><strong>{{ $message->recipient->name }}</strong></a>
                             @else
-                                <a href="/message/{{ $message->id }}">{{ $message->sender->name }}</a>
+                                <a href="/message/{{ $message->id }}">{{ $message->recipient->name }}</a>
                             @endif
                         </td>
                         <td>

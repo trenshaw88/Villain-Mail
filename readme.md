@@ -12,3 +12,7 @@ A villains-only messages application.
 
 4. Run migrations
 
+# Heroku 
+
+1. Open browser, navigate to url https://villian-mail.herokuapp.com/
+

@@ -28,7 +28,9 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
+
       ]);
 
       DB::table('messages')->insert([
@@ -39,7 +41,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -50,7 +53,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -61,7 +65,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -72,7 +77,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -83,7 +89,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -94,7 +101,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -105,7 +113,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => false,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -116,7 +125,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => true,
         'is_starred' =>true,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
       DB::table('messages')->insert([
@@ -127,7 +137,8 @@ class MessagesTableSeeder extends Seeder
         'is_read' => true,
         'is_starred' =>false,
         'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-        'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+        'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+        'message_date' => Carbon::now()->format('jS M, g:i a Y')
       ]);
 
     }
