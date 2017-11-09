@@ -35,18 +35,10 @@
                             @endif
                         </td>
                         <td>
-                            @if ($message->is_read)
-                                <a href="/message/{{ $message->id }}"><strong>{{ $message->recipient->name }}</strong></a>
-                            @else
                                 <a href="/message/{{ $message->id }}">{{ $message->recipient->name }}</a>
-                            @endif
                         </td>
                         <td>
-                            @if ($message->is_read)
-                                <a href="/message/{{ $message->id }}"><strong>{{ $message->subject }}</strong></a>
-                            @else
                                 <a href="/message/{{ $message->id }}">{{ $message->subject }}</a>
-                            @endif
                         </td>
                         <td><a href="/message/{{ $message->id }}">{{ $message->message_date }}</a></td>
                     </tr>
