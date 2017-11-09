@@ -40,7 +40,9 @@
                         <td>
                                 <a href="/message/{{ $message->id }}">{{ $message->subject }}</a>
                         </td>
-                        <td><a href="/message/{{ $message->id }}">{{ $message->message_date }}</a></td>
+                        <td>
+                                <a href="/message/{{ $message->id }}">{{ $message->message_date }}</a>
+                        </td>
                     </tr>
                     @endforeach
 
