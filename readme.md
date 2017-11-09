@@ -4,7 +4,7 @@ A villains-only messages application.
 
 ## Installation
 
-1. Clone source code
+1. Clone source code from url https://github.com/trenshaw88/Villain-Mail.git
 
 2. Create a database
 
